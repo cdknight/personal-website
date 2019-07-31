@@ -137,6 +137,10 @@ h1,h2,h3,p {
         flex-direction: column;
     }
 
+    .box .subtitle{
+        text-align: center;
+    }
+
 }
 
 
