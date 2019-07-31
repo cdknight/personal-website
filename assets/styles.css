@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+h1,h2,h3,p {
+    font-family: Roboto, sans-serif;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.site {
+    margin: 60px;
+}
+
+.title {
+    font-size: 80px;
+    font-family: Roboto, sans-serif;
+}
+
+.caption {
+    font-size: 25px;
+}
+
+.m-left {
+    margin-left: 20px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    
+    font-size: 20px;
+}
+
+.box {
+    margin-top: 40px;
+}
+
+.subtitle {
+    font-size: 55px;
+}
+
+.do-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #3fc2fe;
+
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #888;
+}
+
+.card-head {
+    font-size: 40px;
+    color: white;
+}
+
+.card-desc {
+    font-size: 20px;
+    color: white;
+    margin-top: 6px;
+    line-height: 30px;
+}
+
+.do-desc {
+    width: 50%;
+}
+
+.do-d-box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.do-link {
+    border-radius: 50%;
+    border:none;
+
+    background: white;
+    background-position: center;
+    padding: 20px;
+    transition: 0.2s;
+}
+
+.do-link:hover {
+    cursor: pointer;
+}
+
+.starlight {
+    background: linear-gradient(to right, #9955ff, #2a7fff)
+}
+
+.int-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.int-card {
+    background-color: #3f97fe;
+    width: 47%;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .do-desc {
+        width:100%;
+    }
+
+    .do-d-box {
+        flex-direction: column;
+    }
+
+
+    .intro {
+        text-align: center;
+    }
+
+    .m-wrapper {
+        display:flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .details {
+        flex-direction: column;
+    }
+
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .int-card {
+        width: 100%;
+    }
+}
+
+
+
+.int-card-full {
+    width: 100%;
+}
+
+.languages {
+    background: linear-gradient(to right, #ff5599, #ff00cc);
+}
+
+.books {
+    background: linear-gradient(to right, #fa771f, #ff566b);
+}
